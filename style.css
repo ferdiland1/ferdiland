@@ -1,0 +1,118 @@
+html{
+    background-color:rgba(106, 184, 204, 0.144);
+}
+.main_container{
+    display: inline-flex;
+    gap: 50px;
+    background-color: rgba(206, 230, 226, 0.575);
+    height: 85px;
+    width: 100%;
+    
+}
+.ayrac{
+    
+    border-left: 5px solid rgba(106, 184, 204, 0.144);
+    height: 80px;
+    display: inline-flex;
+    gap: 10px;
+}
+.logo{
+    
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+.logorenk{
+    font-size:xx-large;
+    color: rgb(85, 26, 26);
+    font-family: 'Pacifico', cursive;
+}
+.button{
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    position:relative;
+    top: 15px;
+    height: 50px;
+    border-radius: 10%;
+    border-color:cornsilk;
+    background-color: antiquewhite;
+    display:inline;
+    
+}
+.songs{
+    position: relative;
+    left: 10px;
+}
+.ferdihakkinda{
+    width: 400px;
+    height: 20px;
+    position: relative;
+    font-family: cursive;
+    
+}
+.cizgi{
+    height: 5px;
+    background-color: rgba(79, 116, 98, 0.5);
+}
+.altinplak{
+    height: 150px;
+    
+}
+.ferdifon{
+    height: 150px;
+}
+@media (max-width: 800px){
+.ferdiresim{
+
+    left: 0px;
+    right: 400px;
+    
+    }
+    .resm{
+        right: 300;
+    }
+}
+.ferdiresim{
+   
+    position: relative;
+    bottom: 350px;
+    height: 30px;
+    width: 30px;
+    display: block;
+    left: 400px;
+}
+.resm{
+scale: 30%;
+}
+table, th, td {
+    border: 1px groove rgba(0, 0, 0, 0.562);
+  }
+th{
+    background-color:rgba(127, 255, 212, 0.438);
+  }
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+.ferdi{
+    width: 400px;
+    height: 20px;
+    position: relative;
+    top: 330px;
+    left: 860px;
+    font-family: cursive;
+    
+}
+.paragraph{
+    position: relative;
+    top: 350px;
+    left: 650px;
+    width: 800px;
+}
+.resimaciklama{
+    font-size:smaller;
+}
+.aboutparagraph{
+    font-family:sans-serif;
+}
