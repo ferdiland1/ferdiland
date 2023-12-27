@@ -63,15 +63,18 @@ html{
 .ferdifon{
     height: 150px;
 }
-@media (max-width: 800px){
-.ferdiresim{
 
-    left: 0px;
-    right: 400px;
-    
+@media screen and (max-width: 768px) {
+    .main_container {
+        flex-direction: column;
+        height: 2000px;
+        width: 100px;
+        float: left;
     }
-    .resm{
-        right: 300;
+
+    .ayrac{
+        height: 0px;
+        gap: 0px;
     }
 }
 .ferdiresim{
@@ -82,6 +85,7 @@ html{
     width: 30px;
     display: block;
     left: 400px;
+    
 }
 .resm{
 scale: 30%;
